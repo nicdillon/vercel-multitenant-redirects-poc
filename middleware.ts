@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
 // Define your tenant domains
-const TENANT_DOMAINS = {
+const TENANT_DOMAINS: Record<string, string> = {
   'tenant1.localhost:3000': 'tenant1',
   'tenant2.localhost:3000': 'tenant2',
   // For Vercel deployment - add your actual domains here
