@@ -6,6 +6,8 @@ const TENANT_DOMAINS: Record<string, string> = {
   'tenant1.localhost:3000': 'tenant1',
   'tenant2.localhost:3000': 'tenant2',
   // For Vercel deployment - add your actual domains here
+  'tenant1.multitenant.site': 'tenant1',
+  'tenant2.multitenant.site': 'tenant2',
   'tenant1domain.com': 'tenant1',
   'tenant2domain.com': 'tenant2',
   'www.tenant1domain.com': 'tenant1',
